@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabinet dentaire Richarlayne - Cotonou, Bénin</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-navy font-sans antialiased min-h-screen flex flex-col">
+
+  <!-- TOP HEADER / BANNER -->
+  <header class="border-b border-gray-100 bg-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <!-- Logo and Brand -->
+      <a href="#" class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center p-2 rounded-lg bg-teal-light text-turquoise">
+          <i data-lucide="heart-pulse" class="w-6 h-6"></i>
+        </span>
+        <div>
+          <span class="block font-bold text-lg tracking-tight text-navy">Cabinet Dentaire</span>
+          <span class="block text-xs font-semibold uppercase tracking-widest text-turquoise">Richarlayne</span>
+        </div>
+      </a>
+
+      <!-- Quick Contacts -->
+      <div class="flex flex-wrap items-center justify-center gap-6 text-sm">
+        <div class="flex items-center gap-2 text-navy/80">
+          <i data-lucide="map-pin" class="w-4 h-4 text-turquoise"></i>
+          <span>Cotonou Zongo-Ehuzu</span>
+        </div>
+        <a href="tel:+22960911818" class="flex items-center gap-2 font-semibold text-navy hover:text-turquoise">
+          <i data-lucide="phone" class="w-4 h-4 text-mint"></i>
+          <span>+229 60 91 18 18</span>
+        </a>
+        <a href="#booking" class="bg-mint text-navy font-semibold px-4 py-2 rounded-md hover:opacity-90">
+          Prendre RDV
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    
+    <!-- HERO SECTION -->
+    <section class="max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-12 gap-12 items-center">
+      <div class="md:col-span-7 space-y-8">
+        <!-- Google Reviews Badge -->
+        <div class="inline-flex items-center gap-3 bg-gray-50 border border-gray-100 px-4 py-2 rounded-full">
+          <div class="flex text-amber-400">
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+          </div>
+          <span class="text-xs font-semibold text-navy/80">
+            4,1/5 étoiles <span class="text-gray-400 font-normal">(94 avis Google)</span>
+          </span>
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-navy leading-tight">
+          Votre santé dentaire est notre priorité au Cabinet Richarlayne
+        </h1>
+
+        <p class="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl">
+          Des soins professionnels et un accompagnement de confiance à Cotonou Zongo-Ehuzu.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 pt-2">
+          <a href="#booking" class="inline-flex items-center justify-center gap-2 bg-turquoise text-white font-semibold px-8 py-4 rounded-lg shadow-sm hover:opacity-95 text-center">
+            <i data-lucide="calendar" class="w-5 h-5"></i>
+            Prendre un rendez-vous
+          </a>
+          <a href="#services" class="inline-flex items-center justify-center gap-2 border border-gray-200 text-navy font-medium px-8 py-4 rounded-lg hover:bg-gray-50 text-center">
+            Découvrir nos soins
+          </a>
+        </div>
+
+        <!-- Key Highlights -->
+        <div class="grid grid-cols-2 gap-6 pt-6 border-t border-gray-100">
+          <div>
+            <span class="block text-2xl font-bold text-navy">94+</span>
+            <span class="text-sm text-gray-500">Patients satisfaits & avis</span>
+          </div>
+          <div>
+            <span class="block text-2xl font-bold text-navy">Cotonou</span>
+            <span class="text-sm text-gray-500">Zongo-Ehuzu, Bénin</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Preview Panel -->
+      <div class="md:col-span-5 bg-gray-50 border border-gray-100 rounded-2xl p-8 space-y-6">
+        <h3 class="text-xl font-bold text-navy">Informations pratiques</h3>
+        
+        <div class="space-y-4">
+          <div class="flex items-start gap-4">
+            <div class="p-2 bg-white rounded-lg border border-gray-100 text-turquoise">
+              <i data-lucide="map-pinned" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="font-semibold text-navy">Adresse du cabinet</p>
+              <p class="text-sm text-gray-600">Rue numéro 240, maison Grimaud, Cotonou Zongo-Ehuzu, Bénin</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="p-2 bg-white rounded-lg border border-gray-100 text-mint">
+              <i data-lucide="phone-call" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="font-semibold text-navy">Contact direct</p>
+              <p class="text-sm text-gray-600">+229 60 91 18 18</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="p-2 bg-white rounded-lg border border-gray-100 text-turquoise">
+              <i data-lucide="clock" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="font-semibold text-navy">Disponibilité</p>
+              <p class="text-sm text-gray-600">Lundi au Samedi sur rendez-vous</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#booking" class="block w-full text-center bg-navy text-white py-3 rounded-lg font-semibold hover:opacity-90">
+          Planifier maintenant
+        </a>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="bg-gray-50 border-y border-gray-100 py-20">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+          <span class="text-xs font-bold uppercase tracking-wider text-turquoise">Savoir-faire</span>
+          <h2 class="text-3xl md:text-4xl font-bold text-navy">Nos Services Dentaires</h2>
+          <p class="text-gray-600">
+            Nous proposons une gamme complète de traitements dentaires prodigués avec des équipements modernes et dans le respect strict des normes de santé.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="text-turquoise mb-4">
+                <i data-lucide="stethoscope" class="w-10 h-10"></i>
+              </div>
+              <h3 class="text-lg font-bold text-navy mb-2">Consultation & Diagnostic complet</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">
+                Bilan dentaire minutieux, diagnostic approfondi et recommandations adaptées pour préserver votre santé bucco-dentaire.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="text-turquoise mb-4">
+                <i data-lucide="sparkles" class="w-10 h-10"></i>
+              </div>
+              <h3 class="text-lg font-bold text-navy mb-2">Détartrage & Polissage professionnel</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">
+                Élimination de la plaque dentaire et du tartre pour retrouver une fraîcheur durable et des gencives saines.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="text-turquoise mb-4">
+                <i data-lucide="shield-check" class="w-10 h-10"></i>
+              </div>
+              <h3 class="text-lg font-bold text-navy mb-2">Traitement des caries & Soins conservateurs</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">
+                Restauration de la structure dentaire avec des techniques esthétiques et durables pour enrayer la carie.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="text-turquoise mb-4">
+                <i data-lucide="scissors" class="w-10 h-10"></i>
+              </div>
+              <h3 class="text-lg font-bold text-navy mb-2">Extractions & Chirurgie dentaire</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">
+                Interventions chirurgicales réalisées avec soin, précision et anesthésie adaptée pour votre confort absolu.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="text-turquoise mb-4">
+                <i data-lucide="crown" class="w-10 h-10"></i>
+              </div>
+              <h3 class="text-lg font-bold text-navy mb-2">Prothèses & Couronnes dentaires</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">
+                Remplacement de dents absentes par des solutions prothétiques fixes ou mobiles de grande qualité esthétique.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="bg-white p-8 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between border-l-4 border-l-turquoise">
+            <div>
+              <div class="text-turquoise mb-4">
+                <i data-lucide="ambulance" class="w-10 h-10"></i>
+              </div>
+              <h3 class="text-lg font-bold text-navy mb-2">Urgences dentaires</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">
+                Soulagement rapide de la douleur, prise en charge immédiate des infections et des traumatismes bucco-dentaires.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCALISATION (MAPS) SECTION -->
+    <section id="location" class="py-20 max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-5 space-y-6">
+          <span class="text-xs font-bold uppercase tracking-wider text-turquoise">Venir nous voir</span>
+          <h2 class="text-3xl font-bold text-navy">Notre Localisation à Cotonou</h2>
+          <p class="text-gray-600">
+            Le cabinet dentaire Richarlayne est idéalement situé à Cotonou Zongo-Ehuzu. Planifiez facilement votre itinéraire de visite grâce à la carte ci-contre.
+          </p>
+
+          <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 space-y-4">
+            <div class="flex gap-4">
+              <i data-lucide="navigation" class="w-5 h-5 text-turquoise shrink-0"></i>
+              <div>
+                <p class="font-semibold text-navy">Adresse Complète</p>
+                <p class="text-sm text-gray-600">Rue numéro 240, maison Grimaud, Cotonou Zongo-Ehuzu, Bénin</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <i data-lucide="phone" class="w-5 h-5 text-mint shrink-0"></i>
+              <div>
+                <p class="font-semibold text-navy">Besoin d'aide pour venir ?</p>
+                <a href="tel:+22960911818" class="text-sm text-turquoise hover:underline font-semibold">+229 60 91 18 18</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 bg-gray-50 border border-gray-100 p-2 rounded-2xl shadow-sm overflow-hidden h-[450px]">
+          <iframe src="https://maps.google.com/maps?q=Cabinet%20dentaire%20Richarlayne,%20Cotonou,%20B%C3%A9nin&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPOINTMENT / WHATSAPP BOOKING FORM SECTION -->
+    <section id="booking" class="bg-gray-50 border-t border-gray-100 py-20">
+      <div class="max-w-3xl mx-auto px-6">
+        <div class="text-center space-y-4 mb-12">
+          <span class="text-xs font-bold uppercase tracking-wider text-turquoise">Prise de rendez-vous</span>
+          <h2 class="text-3xl font-bold text-navy">Planifiez votre visite en ligne</h2>
+          <p class="text-gray-600">
+            Remplissez ce formulaire d'informations pour planifier et confirmer instantanément votre rendez-vous via notre ligne WhatsApp officielle.
+          </p>
+        </div>
+
+        <!-- Form container -->
+        <div class="bg-white border border-gray-200/60 rounded-2xl shadow-sm p-8 md:p-10">
+          <form id="appointmentForm" class="space-y-6">
+            <!-- Name Field -->
+            <div>
+              <label for="prenom" class="block text-xs font-bold uppercase tracking-wider text-navy/70 mb-2">
+                Prénom du patient <span class="text-turquoise">*</span>
+              </label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                  <i data-lucide="user" class="w-5 h-5"></i>
+                </span>
+                <input 
+                  type="text" 
+                  id="prenom" 
+                  required 
+                  placeholder="Ex. Robert" 
+                  class="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg text-navy placeholder-gray-400 focus:outline-none focus:border-turquoise text-base"
+                />
+              </div>
+            </div>
+
+            <!-- Phone Field -->
+            <div>
+              <label for="telephone" class="block text-xs font-bold uppercase tracking-wider text-navy/70 mb-2">
+                Numéro WhatsApp <span class="text-turquoise">*</span>
+              </label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                  <i data-lucide="phone" class="w-5 h-5"></i>
+                </span>
+                <input 
+                  type="tel" 
+                  id="telephone" 
+                  required 
+                  placeholder="Ex. +229 60 91 18 18" 
+                  class="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg text-navy placeholder-gray-400 focus:outline-none focus:border-turquoise text-base"
+                />
+              </div>
+            </div>
+
+            <!-- Service Selection -->
+            <div>
+              <label for="service" class="block text-xs font-bold uppercase tracking-wider text-navy/70 mb-2">
+                Service souhaité <span class="text-turquoise">*</span>
+              </label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                  <i data-lucide="activity" class="w-5 h-5"></i>
+                </span>
+                <select 
+                  id="service" 
+                  required 
+                  class="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg text-navy focus:outline-none focus:border-turquoise appearance-none text-base"
+                >
+                  <option value="" disabled selected>Choisissez un soin dentaire</option>
+                  <option value="Consultation & Diagnostic complet">Consultation & Diagnostic complet</option>
+                  <option value="Détartrage & Polissage professionnel">Détartrage & Polissage professionnel</option>
+                  <option value="Traitement des caries & Soins conservateurs">Traitement des caries & Soins conservateurs</option>
+                  <option value="Extractions & Chirurgie dentaire">Extractions & Chirurgie dentaire</option>
+                  <option value="Prothèses & Couronnes dentaires">Prothèses & Couronnes dentaires</option>
+                  <option value="Urgences dentaires">Urgences dentaires</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Date and Time Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label for="date" class="block text-xs font-bold uppercase tracking-wider text-navy/70 mb-2">
+                  Date choisie <span class="text-turquoise">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                    <i data-lucide="calendar" class="w-5 h-5"></i>
+                  </span>
+                  <input 
+                    type="date" 
+                    id="date" 
+                    required 
+                    class="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg text-navy focus:outline-none focus:border-turquoise text-base"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="heure" class="block text-xs font-bold uppercase tracking-wider text-navy/70 mb-2">
+                  Heure souhaitée <span class="text-turquoise">*</span>
+                </label>
+                <div class="relative">
+                  <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
+                    <i data-lucide="clock" class="w-5 h-5"></i>
+                  </span>
+                  <input 
+                    type="time" 
+                    id="heure" 
+                    required 
+                    class="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-lg text-navy focus:outline-none focus:border-turquoise text-base"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button 
+              type="submit" 
+              class="w-full bg-turquoise hover:opacity-95 text-white font-semibold py-4 rounded-lg flex items-center justify-center gap-3 shadow-md text-base"
+            >
+              Envoyer ma demande sur WhatsApp 🟢
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-navy text-white py-12 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 text-sm">
+      <div class="space-y-4">
+        <div class="flex items-center gap-3">
+          <span class="p-1 rounded bg-turquoise text-white">
+            <i data-lucide="heart-pulse" class="w-5 h-5"></i>
+          </span>
+          <span class="font-bold text-lg tracking-wide">Cabinet Richarlayne</span>
+        </div>
+        <p class="text-gray-400">
+          Votre santé bucco-dentaire au cœur de nos priorités. Excellence, rigueur et professionnalisme.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <h4 class="font-bold text-turquoise tracking-wider uppercase text-xs">Informations</h4>
+        <p class="text-gray-400">
+          Rue numéro 240, maison Grimaud, Cotonou Zongo-Ehuzu, Bénin
+        </p>
+        <p class="text-gray-400">
+          Téléphone : +229 60 91 18 18
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <h4 class="font-bold text-turquoise tracking-wider uppercase text-xs">Note Google</h4>
+        <div class="flex items-center gap-2">
+          <div class="flex text-amber-400">
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+          </div>
+          <span class="text-gray-400 font-semibold">4,1 / 5 (94 avis)</span>
+        </div>
+        <p class="text-xs text-gray-500">© 2026 Cabinet dentaire Richarlayne. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
